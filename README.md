@@ -14,6 +14,8 @@ The pipeline has 4 main steps:
 * SVD projection and LSTM training/inference,
 * Retemporalization with pattern finding.  
 
+There are more info (in French) on each of the steps in "Rapport.pdf".  
+
 ## Run
 
 Data needed:
