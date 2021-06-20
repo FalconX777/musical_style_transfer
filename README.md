@@ -18,10 +18,10 @@ There are more info (in French) on each of the steps in "Rapport.pdf".
 
 ## Run
 
-Data needed:
-REF_DIR: directory containing the MAESTRO datasets (only the REF_DIR/2017 folder is used for SVD here)
-TEST_DIR: test dataset directory, containing "Les Sauvages" midi files ("sauvages_full.mid" and "sauvages_sklt.mid", given in "./data"), and used to write the generated sequences
-CHKP_DIR: checkpoint directory for logging
+Data needed:  
+* REF_DIR: directory containing the MAESTRO datasets (only the REF_DIR/2017 folder is used for SVD here)
+* TEST_DIR: test dataset directory, containing "Les Sauvages" midi files ("sauvages_full.mid" and "sauvages_sklt.mid", given in "./data"), and used to write the generated sequences
+* CHKP_DIR: checkpoint directory for logging
 
 Run "python lstm_training.py" for a training+inference example.  
 All the hyperparameters can be tuned in the main function of "lstm_training.py".  
